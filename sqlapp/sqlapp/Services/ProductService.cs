@@ -14,13 +14,15 @@ namespace sqlapp.Services
 
         private SqlConnection GetConnection()
         {
-            
+
             var _builder = new SqlConnectionStringBuilder();
             _builder.DataSource = db_source;
             _builder.UserID = db_user;
             _builder.Password = db_password;
             _builder.InitialCatalog = db_database;
             return new SqlConnection(_builder.ConnectionString);
+            
+            // return new SqlConnection(_configuration.GetConnectionString("AzureWebAppConnectionString"));
         }
         public List<Product> GetProducts()
         {
