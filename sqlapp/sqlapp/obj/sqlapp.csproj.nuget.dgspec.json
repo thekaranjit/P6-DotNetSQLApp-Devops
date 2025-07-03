@@ -1,28 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\6. Populating our database with data\\sqlapp\\sqlapp\\sqlapp.csproj": {}
+    "/Users/karanjitsingh/Desktop/Cloud & Devops/Azure Devops/Projects/P6-DotNetSQLApp-Devops/sqlapp/sqlapp/sqlapp.csproj": {}
   },
   "projects": {
-    "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\6. Populating our database with data\\sqlapp\\sqlapp\\sqlapp.csproj": {
+    "/Users/karanjitsingh/Desktop/Cloud & Devops/Azure Devops/Projects/P6-DotNetSQLApp-Devops/sqlapp/sqlapp/sqlapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\6. Populating our database with data\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectUniqueName": "/Users/karanjitsingh/Desktop/Cloud & Devops/Azure Devops/Projects/P6-DotNetSQLApp-Devops/sqlapp/sqlapp/sqlapp.csproj",
         "projectName": "sqlapp",
-        "projectPath": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\6. Populating our database with data\\sqlapp\\sqlapp\\sqlapp.csproj",
-        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-        "outputPath": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\6. Populating our database with data\\sqlapp\\sqlapp\\obj\\",
+        "projectPath": "/Users/karanjitsingh/Desktop/Cloud & Devops/Azure Devops/Projects/P6-DotNetSQLApp-Devops/sqlapp/sqlapp/sqlapp.csproj",
+        "packagesPath": "/Users/karanjitsingh/.nuget/packages/",
+        "outputPath": "/Users/karanjitsingh/Desktop/Cloud & Devops/Azure Devops/Projects/P6-DotNetSQLApp-Devops/sqlapp/sqlapp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/karanjitsingh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -57,10 +55,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
